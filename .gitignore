@@ -1,0 +1,30 @@
+# ===== 密钥与个人配置，绝不能提交 =====
+.env
+.env.*
+!.env.example
+
+# ===== 个人数据：截图与生成的 Excel =====
+IMAGE_FOLDER/
+*.xlsx
+*.xlsm
+识别失败记录.txt
+*.完整文字.txt
+
+# ===== Python 虚拟环境与缓存 =====
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== 编辑器与系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 日志与临时文件 =====
+*.log
+job_import_*.xlsx
